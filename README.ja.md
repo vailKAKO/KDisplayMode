@@ -23,6 +23,7 @@ Unity の Windows / macOS スタンドアロン向けに、解像度とウィン
 ## 動作環境
 
 - Unity 2022.3 以降
+- Git クライアント 2.14.0 以降（Package Manager がパッケージの取得に使います）
 - Windows / macOS のスタンドアロンプレイヤー（ほかのプラットフォームでは、フルスクリーンは `FullScreenWindow` になります）
 - Demo サンプルには uGUI・TextMesh Pro・Input System パッケージも必要です
 
@@ -30,7 +31,7 @@ Unity の Windows / macOS スタンドアロン向けに、解像度とウィン
 
 ### Package Manager（git URL）
 
-**Window > Package Manager** を開き、**+ > Add package from git URL...** に次を入力します。
+**Window > Package Manager** を開き、**+ > Install package from git URL**（Unity 2022.3 では **Add package from git URL...**）に次を入力します。
 
 ```
 https://github.com/vailKAKO/KDisplayMode.git?path=Packages/com.kakogames.kdisplaymode

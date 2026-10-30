@@ -23,6 +23,7 @@ You choose from three modes — Fullscreen, Borderless and Windowed — and the 
 ## Requirements
 
 - Unity 2022.3 or later
+- Git client 2.14.0 or later (Package Manager uses it to fetch the package)
 - Windows or macOS standalone player (on other platforms, Fullscreen falls back to `FullScreenWindow`)
 - The Demo sample additionally needs uGUI, TextMesh Pro and the Input System package
 
@@ -30,7 +31,7 @@ You choose from three modes — Fullscreen, Borderless and Windowed — and the 
 
 ### Package Manager (git URL)
 
-Open **Window > Package Manager**, choose **+ > Add package from git URL...**, and enter:
+Open **Window > Package Manager**, choose **+ > Install package from git URL** (**Add package from git URL...** in Unity 2022.3), and enter:
 
 ```
 https://github.com/vailKAKO/KDisplayMode.git?path=Packages/com.kakogames.kdisplaymode
