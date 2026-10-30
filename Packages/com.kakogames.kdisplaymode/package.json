@@ -1,0 +1,35 @@
+{
+  "name": "com.kakogames.kdisplaymode",
+  "displayName": "KDisplayMode",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Resolution and window mode (Fullscreen / Borderless / Windowed) switching for Windows and macOS standalone players. Platform differences in FullScreenMode are handled inside the package. Saving settings is left to your project: DisplaySettings is a serializable struct you can store any way you like.",
+  "keywords": [
+    "resolution",
+    "fullscreen",
+    "borderless",
+    "windowed",
+    "display",
+    "screen",
+    "settings"
+  ],
+  "author": {
+    "name": "Kako no Nikomi",
+    "url": "https://github.com/vailKAKO"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vailKAKO/KDisplayMode.git"
+  },
+  "documentationUrl": "https://github.com/vailKAKO/KDisplayMode#readme",
+  "changelogUrl": "https://github.com/vailKAKO/KDisplayMode/blob/main/Packages/com.kakogames.kdisplaymode/CHANGELOG.md",
+  "licensesUrl": "https://github.com/vailKAKO/KDisplayMode/blob/main/LICENSE",
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "A uGUI settings panel (prefab) and a demo scene for switching resolution and window mode. Requires uGUI, TextMesh Pro and the Input System package.",
+      "path": "Samples~/Demo"
+    }
+  ]
+}
